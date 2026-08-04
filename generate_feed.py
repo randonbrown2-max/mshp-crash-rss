@@ -5,24 +5,27 @@ from datetime import datetime, timezone, timedelta
 from urllib.parse import urljoin
 import re
 
+# Base URL used to resolve relative links safely
 BASE_MSHP_URL = "https://www.mshp.dps.mo.gov/HP68/"
 
-SEARCH_URLS = [
-    "https://www.mshp.dps.mo.gov/HP68/SearchAction?searchTroop=G",
-    "https://www.mshp.dps.mo.gov/HP68/SearchAction?searchTroop=I"
-]
-
-TARGET_COUNTIES = {
+# Target Counties (South-Central Missouri)
+TARGET_COUNTIES = [
     "TEXAS", "PHELPS", "DENT", "SHANNON", 
     "HOWELL", "DOUGLAS", "WRIGHT", "LACLEDE", "PULASKI"
-}
+]
+
+# Generate endpoints per county using MSHP's sCounty query parameter
+SEARCH_URLS = [
+    f"https://www.mshp.dps.mo.gov/HP68/SearchAction?sCounty={county}"
+    for county in TARGET_COUNTIES
+]
 
 def parse_mshp_date(date_str):
-    """Parses MSHP date strings to UTC datetime."""
+    """Parses MSHP date strings (e.g., '08/04/2026 11:14AM') to UTC datetime."""
     try:
         clean_str = re.sub(r'\s+', ' ', date_str).strip()
         dt = datetime.strptime(clean_str, "%m/%d/%Y %I:%M%p")
-        # Central Time Offset (-5 daylight / -6 standard)
+        # Central Time Offset (-5 Daylight / -6 Standard)
         return dt.replace(tzinfo=timezone(timedelta(hours=-5)))
     except Exception:
         return datetime.now(timezone.utc)
@@ -35,7 +38,7 @@ def fetch_crash_reports():
     reports = []
     seen_ids = set()
     
-    # 29-Day Cutoff Date
+    # MSHP retains online crash reports for roughly 29 days
     cutoff_date = datetime.now(timezone.utc) - timedelta(days=29)
 
     for url in SEARCH_URLS:
@@ -57,6 +60,7 @@ def fetch_crash_reports():
                 if len(cols) >= 10:
                     text_content = [c.get_text(strip=True) for c in cols]
                     
+                    # Skip table header rows
                     if "Report" in text_content[0] or "Crash County" in text_content:
                         continue
 
@@ -66,29 +70,50 @@ def fetch_crash_reports():
                     date_str = f"{date_val} {time_val}".strip()
                     parsed_dt = parse_mshp_date(date_str)
 
-                    # Skip items older than 29 days
+                    # 29-Day Cutoff Filter
                     if parsed_dt < cutoff_date:
                         continue
 
                     county = text_content[8].upper()
                     location = text_content[9]
 
-                    if any(target in county for target in TARGET_COUNTIES):
-                        dedup_key = f"{report_id}-{county}"
-                        if dedup_key in seen_ids:
-                            continue
-                        seen_ids.add(dedup_key)
+                    # Deduplicate by Report ID + County (handles multi-person crash rows)
+                    dedup_key = f"{report_id}-{county}"
+                    if dedup_key in seen_ids:
+                        continue
+                    seen_ids.add(dedup_key)
 
-                        link = row.find("a")
-                        report_url = urljoin(BASE_MSHP_URL, link["href"]) if link and "href" in link.attrs else url
+                    # Extract relative or full report links
+                    link = row.find("a")
+                    if link and "href" in link.attrs:
+                        report_url = urljoin(BASE_MSHP_URL, link["href"])
+                    else:
+                        report_url = url
 
-                        reports.append({
-                            "id": report_id,
-                            "date_str": date_str,
-                            "parsed_date": parsed_dt,
-                            "county": county,
-                            "location": location,
-                            "url": report_url
-                        })
+                    reports.append({
+                        "id": report_id,
+                        "date_str": date_str,
+                        "parsed_date": parsed_dt,
+                        "county": county,
+                        "location": location,
+                        "url": report_url
+                    })
                 
     return reports
+
+def generate_rss(reports):
+    fg = FeedGenerator()
+    fg.id("https://www.mshp.dps.mo.gov/HP68/search.jsp")
+    fg.title("Texas County & South-Central MO Crash Reports")
+    fg.author({'name': 'MSHP RSS Generator'})
+    fg.link(href="https://www.mshp.dps.mo.gov/HP68/search.jsp", rel='alternate')
+    fg.description("Automated RSS feed for Texas County and surrounding Missouri counties.")
+    fg.language("en")
+
+    # Sort reports newest first
+    reports.sort(key=lambda x: x['parsed_date'], reverse=True)
+
+    for item in reports:
+        fe = fg.add_entry()
+        fe.id(item["url"])
+        fe.title(f"Crash Report
