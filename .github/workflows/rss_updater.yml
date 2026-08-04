@@ -21,7 +21,7 @@ def fetch_crash_reports():
     }
     
     reports = []
-    seen_ids = set() # Prevent duplicate entries across troops
+    seen_ids = set()  # Deduplicate entries
 
     for url in SEARCH_URLS:
         try:
@@ -39,18 +39,17 @@ def fetch_crash_reports():
             for row in rows:
                 cols = row.find_all("td")
                 
-                # MSHP crash table rows contain 10 to 12 columns
+                # MSHP table has 10-12 columns
                 if len(cols) >= 10:
                     text_content = [c.get_text(strip=True) for c in cols]
                     
-                    # Skip header rows
+                    # Skip table header rows
                     if "Report" in text_content[0] or "Crash County" in text_content:
                         continue
 
-                    # Column indices:
-                    # 0: Report ID, 6: Date, 7: Time, 8: County, 9: Location
+                    # Column mapping: 0=ID, 6=Date, 7=Time, 8=County, 9=Location
                     report_id = text_content[0]
-                    date_str = f"{text_content[6]} {text_content[7]}"
+                    date_str = f"{text_content[6]} {text_content[7]}" if len(text_content) > 7 else text_content[6]
                     county = text_content[8].upper()
                     location = text_content[9]
 
@@ -80,7 +79,7 @@ def generate_rss(reports):
     fg.title("Texas County & Area Crash Reports (MSHP)")
     fg.author({'name': 'MSHP RSS Generator'})
     fg.link(href="https://www.mshp.dps.mo.gov/HP68/search.jsp", rel='alternate')
-    fg.description("Automated RSS feed monitoring MSHP crash reports in Texas County and surrounding Missouri counties.")
+    fg.description("Automated RSS feed for Texas County and surrounding Missouri counties.")
     fg.language("en")
 
     for item in reports:
@@ -88,17 +87,23 @@ def generate_rss(reports):
         fe.id(item["url"] if item["url"] != "https://www.mshp.dps.mo.gov/HP68/search.jsp" else item["id"])
         fe.title(f"Crash Report #{item['id']} - {item['county']} County")
         fe.link(href=item["url"])
-        fe.description(
-            f"<b>County:</b> {item['county']}<br>"
-            f"<b>Date/Time:</b> {item['date']}<br>"
-            f"<b>Location:</b> {item['location']}"
+        
+        # Bulleted HTML description
+        bullet_description = (
+            "<ul>"
+            f"<li><b>County:</b> {item['county']}</li>"
+            f"<li><b>Date/Time:</b> {item['date']}</li>"
+            f"<li><b>Location:</b> {item['location']}</li>"
+            "</ul>"
         )
+        fe.description(bullet_description)
         fe.pubDate(datetime.now(timezone.utc))
 
+    # Output feed files
     fg.rss_file("index.html")
     fg.rss_file("feed.xml")
 
 if __name__ == "__main__":
     reports = fetch_crash_reports()
     generate_rss(reports)
-    print(f"Generated RSS feed with {len(reports)} items.")
+    print(f"Generated bulleted RSS feed with {len(reports)} items.")
