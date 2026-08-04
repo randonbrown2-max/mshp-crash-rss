@@ -1,90 +1,49 @@
-import requests
-from bs4 import BeautifulSoup
-from feedgen.feed import FeedGenerator
 from datetime import datetime, timezone
 
-SEARCH_URL = "https://www.mshp.dps.mo.gov/HP68/SearchAction?searchTroop=G"
-
-# Texas County + surrounding area
-TARGET_COUNTIES = {
-    "TEXAS", "PHELPS", "DENT", "SHANNON", 
-    "HOWELL", "DOUGLAS", "WRIGHT", "LACLEDE", "PULASKI"
-}
-
-def fetch_crash_reports():
-    headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-    }
-    
-    response = requests.get(SEARCH_URL, headers=headers, timeout=15)
-    response.raise_for_status()
-    
-    soup = BeautifulSoup(response.text, "html.parser")
-    reports = []
-
-    # Target the MSHP results table
-    tables = soup.find_all("table")
-    for table in tables:
-        rows = table.find_all("tr")
-        for row in rows:
-            cols = row.find_all("td")
-            
-            # MSHP table typically has 10-12 columns per row
-            if len(cols) >= 9:
-                text_content = [c.get_text(strip=True) for c in cols]
-                
-                # Header row filter
-                if "Report" in text_content[0] or "Crash County" in text_content:
-                    continue
-
-                # Column mapping for MSHP SearchAction:
-                # 0: Report ID, 6: Date, 7: Time, 8: County, 9: Location
-                report_id = text_content[0]
-                date_str = f"{text_content[6]} {text_content[7]}" if len(text_content) > 7 else text_content[6]
-                county = text_content[8].upper() if len(text_content) > 8 else ""
-                location = text_content[9] if len(text_content) > 9 else "N/A"
-
-                # Filter by targeted counties
-                if any(target in county for target in TARGET_COUNTIES):
-                    link = row.find("a")
-                    report_url = "https://www.mshp.dps.mo.gov/HP68/" + link["href"] if link and "href" in link.attrs else SEARCH_URL
-
-                    reports.append({
-                        "id": report_id,
-                        "date": date_str,
-                        "county": county,
-                        "location": location,
-                        "url": report_url
-                    })
-                
-    return reports
+def parse_mshp_date(date_str):
+    """
+    Converts MSHP date/time string (e.g. '08/02/2026 12:45AM') 
+    into a timezone-aware datetime object for RSS pubDate sorting.
+    """
+    try:
+        # Standard MSHP format: MM/DD/YYYY I:MMPM
+        dt = datetime.strptime(date_str, "%m/%d/%Y %I:%M%p")
+        # Assuming US Central timezone (-05:00/CDT or -06:00/CST)
+        return dt.replace(tzinfo=timezone.utc)
+    except ValueError:
+        # Fallback if time format varies
+        return datetime.now(timezone.utc)
 
 def generate_rss(reports):
     fg = FeedGenerator()
-    fg.id(SEARCH_URL)
+    fg.id("https://www.mshp.dps.mo.gov/HP68/search.jsp")
     fg.title("Texas County & Area Crash Reports (MSHP)")
     fg.author({'name': 'MSHP RSS Generator'})
-    fg.link(href=SEARCH_URL, rel='alternate')
+    fg.link(href="https://www.mshp.dps.mo.gov/HP68/search.jsp", rel='alternate')
     fg.description("Automated RSS feed for Texas County and surrounding Missouri counties.")
     fg.language("en")
 
+    # SORT REPORTS: Newest crashes at the top of the feed
+    reports.sort(key=lambda x: parse_mshp_date(x['date']), reverse=True)
+
     for item in reports:
         fe = fg.add_entry()
-        fe.id(item["url"] if item["url"] != SEARCH_URL else item["id"])
+        fe.id(item["url"] if item["url"] != "https://www.mshp.dps.mo.gov/HP68/search.jsp" else item["id"])
         fe.title(f"Crash Report #{item['id']} - {item['county']} County")
         fe.link(href=item["url"])
-        fe.description(
-            f"<b>County:</b> {item['county']}<br>"
-            f"<b>Date/Time:</b> {item['date']}<br>"
-            f"<b>Location:</b> {item['location']}"
-        )
-        fe.pubDate(datetime.now(timezone.utc))
+        
+        # Parse actual date for RSS pubDate tag
+        pub_dt = parse_mshp_date(item['date'])
+        fe.pubDate(pub_dt)
 
-    # Output files
+        bullet_description = (
+            "<ul>"
+            f"<li><b>County:</b> {item['county']}</li>"
+            f"<li><b>Date/Time:</b> {item['date']}</li>"
+            f"<li><b>Location:</b> {item['location']}</li>"
+            "</ul>"
+        )
+        fe.description(bullet_description)
+
     fg.rss_file("index.html")
     fg.rss_file("feed.xml")
-
-if __name__ == "__main__":
-    reports = fetch_crash_reports()
-    generate_rss(reports)
-    print(f"Generated RSS feed with {len(reports)} items.")
