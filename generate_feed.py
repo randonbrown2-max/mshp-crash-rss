@@ -1,7 +1,8 @@
 import requests
 from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
+import re
 
 # Target endpoints for South-Central Missouri (Troop G & Troop I)
 SEARCH_URLS = [
@@ -9,18 +10,20 @@ SEARCH_URLS = [
     "https://www.mshp.dps.mo.gov/HP68/SearchAction?searchTroop=I"
 ]
 
-# Texas County + surrounding area
 TARGET_COUNTIES = {
     "TEXAS", "PHELPS", "DENT", "SHANNON", 
     "HOWELL", "DOUGLAS", "WRIGHT", "LACLEDE", "PULASKI"
 }
 
 def parse_mshp_date(date_str):
-    """Parses MSHP date/time strings for proper RSS sorting."""
+    """Parses MSHP date strings (e.g., '07/09/2026 11:14AM') to UTC datetime."""
     try:
-        dt = datetime.strptime(date_str, "%m/%d/%Y %I:%M%p")
-        return dt.replace(tzinfo=timezone.utc)
-    except ValueError:
+        # Clean extra spaces
+        clean_str = re.sub(r'\s+', ' ', date_str).strip()
+        dt = datetime.strptime(clean_str, "%m/%d/%Y %I:%M%p")
+        # Central Time offset roughly -5 hours UTC (CDT)
+        return dt.replace(tzinfo=timezone(timedelta(hours=-5)))
+    except Exception as e:
         return datetime.now(timezone.utc)
 
 def fetch_crash_reports():
@@ -54,7 +57,10 @@ def fetch_crash_reports():
                         continue
 
                     report_id = text_content[0]
-                    date_str = f"{text_content[6]} {text_content[7]}" if len(text_content) > 7 else text_content[6]
+                    date_val = text_content[6]
+                    time_val = text_content[7] if len(text_content) > 7 else ""
+                    date_str = f"{date_val} {time_val}".strip()
+                    
                     county = text_content[8].upper()
                     location = text_content[9]
 
@@ -69,7 +75,8 @@ def fetch_crash_reports():
 
                         reports.append({
                             "id": report_id,
-                            "date": date_str,
+                            "date_str": date_str,
+                            "parsed_date": parse_mshp_date(date_str),
                             "county": county,
                             "location": location,
                             "url": report_url
@@ -80,36 +87,38 @@ def fetch_crash_reports():
 def generate_rss(reports):
     fg = FeedGenerator()
     fg.id("https://www.mshp.dps.mo.gov/HP68/search.jsp")
-    fg.title("Texas County & Area Crash Reports (MSHP)")
+    fg.title("Texas County & Area Crash Reports")
     fg.author({'name': 'MSHP RSS Generator'})
     fg.link(href="https://www.mshp.dps.mo.gov/HP68/search.jsp", rel='alternate')
     fg.description("Automated RSS feed for Texas County and surrounding Missouri counties.")
     fg.language("en")
 
-    # Sort newest crashes first
-    reports.sort(key=lambda x: parse_mshp_date(x['date']), reverse=True)
+    # Strictly sort by parsed date (newest first)
+    reports.sort(key=lambda x: x['parsed_date'], reverse=True)
 
     for item in reports:
         fe = fg.add_entry()
         fe.id(item["url"] if item["url"] != "https://www.mshp.dps.mo.gov/HP68/search.jsp" else item["id"])
+        
+        # Clean item title
         fe.title(f"Crash Report #{item['id']} - {item['county']} County")
         fe.link(href=item["url"])
-        fe.pubDate(parse_mshp_date(item['date']))
         
-        bullet_description = (
-            "<ul>"
-            f"<li><b>County:</b> {item['county']}</li>"
-            f"<li><b>Date/Time:</b> {item['date']}</li>"
-            f"<li><b>Location:</b> {item['location']}</li>"
-            "</ul>"
+        # Set proper RFC 2822 pubDate for WordPress sorting
+        fe.pubDate(item['parsed_date'])
+        
+        # Plain text line breaks work best with WordPress RSS block excerpt parsing
+        formatted_description = (
+            f"County: {item['county']}\n\n"
+            f"Date/Time: {item['date_str']}\n\n"
+            f"Location: {item['location']}"
         )
-        fe.description(bullet_description)
+        fe.description(formatted_description)
 
-    # Force write XML files
     fg.rss_file("index.html")
     fg.rss_file("feed.xml")
 
 if __name__ == "__main__":
     reports = fetch_crash_reports()
     generate_rss(reports)
-    print(f"Generated RSS feed with {len(reports)} items.")
+    print(f"Generated clean RSS feed with {len(reports)} items.")
