@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
 from datetime import datetime, timezone, timedelta
+from urllib.parse import urljoin
 import re
 
 # Target endpoints for South-Central Missouri (Troop G & Troop I)
@@ -9,6 +10,9 @@ SEARCH_URLS = [
     "https://www.mshp.dps.mo.gov/HP68/SearchAction?searchTroop=G",
     "https://www.mshp.dps.mo.gov/HP68/SearchAction?searchTroop=I"
 ]
+
+# Base URL used to resolve relative links safely
+BASE_MSHP_URL = "https://www.mshp.dps.mo.gov/HP68/"
 
 TARGET_COUNTIES = {
     "TEXAS", "PHELPS", "DENT", "SHANNON", 
@@ -18,10 +22,8 @@ TARGET_COUNTIES = {
 def parse_mshp_date(date_str):
     """Parses MSHP date strings (e.g., '07/09/2026 11:14AM') to UTC datetime."""
     try:
-        # Clean extra spaces
         clean_str = re.sub(r'\s+', ' ', date_str).strip()
         dt = datetime.strptime(clean_str, "%m/%d/%Y %I:%M%p")
-        # Central Time offset roughly -5 hours UTC (CDT)
         return dt.replace(tzinfo=timezone(timedelta(hours=-5)))
     except Exception as e:
         return datetime.now(timezone.utc)
@@ -70,8 +72,13 @@ def fetch_crash_reports():
                             continue
                         seen_ids.add(dedup_key)
 
+                        # Find the anchor tag inside the row
                         link = row.find("a")
-                        report_url = "https://www.mshp.dps.mo.gov/HP68/" + link["href"] if link and "href" in link.attrs else url
+                        if link and "href" in link.attrs:
+                            # urljoin handles relative paths (e.g. "CrashDetail.jsp?...") cleanly
+                            report_url = urljoin(BASE_MSHP_URL, link["href"])
+                        else:
+                            report_url = url
 
                         reports.append({
                             "id": report_id,
@@ -93,21 +100,16 @@ def generate_rss(reports):
     fg.description("Automated RSS feed for Texas County and surrounding Missouri counties.")
     fg.language("en")
 
-    # Strictly sort by parsed date (newest first)
+    # Sort by date (newest first)
     reports.sort(key=lambda x: x['parsed_date'], reverse=True)
 
     for item in reports:
         fe = fg.add_entry()
-        fe.id(item["url"] if item["url"] != "https://www.mshp.dps.mo.gov/HP68/search.jsp" else item["id"])
-        
-        # Clean item title
+        fe.id(item["url"])  # Uses absolute URL as item identifier
         fe.title(f"Crash Report #{item['id']} - {item['county']} County")
         fe.link(href=item["url"])
-        
-        # Set proper RFC 2822 pubDate for WordPress sorting
         fe.pubDate(item['parsed_date'])
         
-        # Plain text line breaks work best with WordPress RSS block excerpt parsing
         formatted_description = (
             f"County: {item['county']}\n\n"
             f"Date/Time: {item['date_str']}\n\n"
