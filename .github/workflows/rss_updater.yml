@@ -1,37 +1,31 @@
-name: Generate MSHP RSS Feed
+def generate_rss(reports):
+    fg = FeedGenerator()
+    fg.id("https://www.mshp.dps.mo.gov/HP68/search.jsp")
+    fg.title("Texas County & South-Central MO Crash Reports")
+    fg.author({'name': 'MSHP RSS Generator'})
+    fg.link(href="https://www.mshp.dps.mo.gov/HP68/search.jsp", rel='alternate')
+    fg.description("Automated RSS feed for Texas County and surrounding Missouri counties.")
+    fg.language("en")
 
-on:
-  schedule:
-    - cron: '0 */4 * * *' # Runs every 4 hours
-  workflow_dispatch: # Allows manual trigger from GitHub UI
+    # Sort reports newest first
+    reports.sort(key=lambda x: x['parsed_date'], reverse=True)
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
+    for item in reports:
+        fe = fg.add_entry()
+        fe.id(item["url"])
+        
+        # FIX: Ensure this line stays on a single line!
+        fe.title(f"Crash Report #{item['id']} - {item['county']} County")
+        
+        fe.link(href=item["url"])
+        fe.pubDate(item['parsed_date'])
+        
+        formatted_description = (
+            f"County: {item['county']}\n\n"
+            f"Date/Time: {item['date_str']}\n\n"
+            f"Location: {item['location']}"
+        )
+        fe.description(formatted_description)
 
-    steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.x'
-
-      - name: Install Dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
-
-      - name: Run Scraper
-        run: python generate_feed.py
-
-      - name: Commit and Push
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add index.html feed.xml
-          git commit -m "Update RSS feed" || exit 0
-          git push
+    fg.rss_file("index.html")
+    fg.rss_file("feed.xml")
