@@ -1,2 +1,282 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Texas County &amp; South-Central MO Crash Reports</title><link>https://www.mshp.dps.mo.gov/HP68/search.jsp</link><description>Automated RSS feed for Texas County and surrounding Missouri counties.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Wed, 05 Aug 2026 00:21:03 +0000</lastBuildDate></channel></rss>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Texas County &amp; South-Central MO Crash Reports</title><link>https://www.mshp.dps.mo.gov/HP68/search.jsp</link><description>Automated RSS feed for Texas County and surrounding Missouri counties.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Wed, 05 Aug 2026 00:24:35 +0000</lastBuildDate><item><title>Crash Report #260286422 - PHELPS County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260286422</link><description>County: PHELPS
+
+Date/Time: 07/08/2026 11:24AM
+
+Location: HIGHWAY E AT EASTBOUND INTERSTATE 44 RAMP</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260286422</guid><pubDate>Wed, 08 Jul 2026 11:24:00 -0500</pubDate></item><item><title>Crash Report #260286933 - TEXAS County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260286933</link><description>County: TEXAS
+
+Date/Time: 07/08/2026 4:40PM
+
+Location: PRIVATE PROPERTY OFF CLOVER HILL DRIVE, 5 MILES NORTH OF ROBY</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260286933</guid><pubDate>Wed, 08 Jul 2026 16:40:00 -0500</pubDate></item><item><title>Crash Report #260287148 - TEXAS County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260287148</link><description>County: TEXAS
+
+Date/Time: 07/08/2026 7:00PM
+
+Location: MO-H APPROXIMATELY 10 MILES NORTHEAST OF CABOOL</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260287148</guid><pubDate>Wed, 08 Jul 2026 19:00:00 -0500</pubDate></item><item><title>Crash Report #260287508 - PHELPS County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260287508</link><description>County: PHELPS
+
+Date/Time: 07/09/2026 7:10AM
+
+Location: COUNTY ROAD 6120 AND COUNTY ROAD 6110</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260287508</guid><pubDate>Thu, 09 Jul 2026 07:10:00 -0500</pubDate></item><item><title>Crash Report #260287742 - LACLEDE County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260287742</link><description>County: LACLEDE
+
+Date/Time: 07/09/2026 9:45AM
+
+Location: HWY 64 1/2 HALF MILE EAST OF BENNETT SPRINGS STATE PARK</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260287742</guid><pubDate>Thu, 09 Jul 2026 09:45:00 -0500</pubDate></item><item><title>Crash Report #260287885 - WRIGHT County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260287885</link><description>County: WRIGHT
+
+Date/Time: 07/09/2026 11:14AM
+
+Location: 135 EAST ROLLA STREET IN HARTVILLE</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260287885</guid><pubDate>Thu, 09 Jul 2026 11:14:00 -0500</pubDate></item><item><title>Crash Report #260288492 - WRIGHT County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260288492</link><description>County: WRIGHT
+
+Date/Time: 07/09/2026 5:30PM
+
+Location: MO 38, 5 MILES WEST OF HARTVILLE</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260288492</guid><pubDate>Thu, 09 Jul 2026 17:30:00 -0500</pubDate></item><item><title>Crash Report #260288473 - HOWELL County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260288473</link><description>County: HOWELL
+
+Date/Time: 07/09/2026 5:50PM
+
+Location: US 160 AT MO 17 INTERSECTION FIVE MILES EAST OF WEST PLAINS</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260288473</guid><pubDate>Thu, 09 Jul 2026 17:50:00 -0500</pubDate></item><item><title>Crash Report #260289658 - HOWELL County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260289658</link><description>County: HOWELL
+
+Date/Time: 07/10/2026 3:00PM
+
+Location: HWY BB 2 MILES NORTH OF WEST PLAINS</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260289658</guid><pubDate>Fri, 10 Jul 2026 15:00:00 -0500</pubDate></item><item><title>Crash Report #260293111 - LACLEDE County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260293111</link><description>County: LACLEDE
+
+Date/Time: 07/12/2026 2:20AM
+
+Location: HIGHWAY HH &amp; ROYAL DR IN LACLEDE COUNTY</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260293111</guid><pubDate>Sun, 12 Jul 2026 02:20:00 -0500</pubDate></item><item><title>Crash Report #260292042 - LACLEDE County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260292042</link><description>County: LACLEDE
+
+Date/Time: 07/12/2026 2:20AM
+
+Location: HIGHWAY HH &amp; ROYAL DR IN LACLEDE COUNTY</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260292042</guid><pubDate>Sun, 12 Jul 2026 02:20:00 -0500</pubDate></item><item><title>Crash Report #260292590 - HOWELL County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260292590</link><description>County: HOWELL
+
+Date/Time: 07/12/2026 2:00PM
+
+Location: COUNTY ROAD 7160 TWO AND ONE HALF MILES WEST OF SOUTH FORK</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260292590</guid><pubDate>Sun, 12 Jul 2026 14:00:00 -0500</pubDate></item><item><title>Crash Report #260292772 - PHELPS County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260292772</link><description>County: PHELPS
+
+Date/Time: 07/12/2026 3:56PM
+
+Location: HIGHWAY 63 300 FEET SOUTH OF ROLLA</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260292772</guid><pubDate>Sun, 12 Jul 2026 15:56:00 -0500</pubDate></item><item><title>Crash Report #260292700 - WRIGHT County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260292700</link><description>County: WRIGHT
+
+Date/Time: 07/12/2026 4:40PM
+
+Location: MO-C TWO MILES SOUTH OF NORWOOD</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260292700</guid><pubDate>Sun, 12 Jul 2026 16:40:00 -0500</pubDate></item><item><title>Crash Report #260293167 - PHELPS County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260293167</link><description>County: PHELPS
+
+Date/Time: 07/12/2026 9:20PM
+
+Location: HWY J NORTH OF COUNTY ROAD 6450</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260293167</guid><pubDate>Sun, 12 Jul 2026 21:20:00 -0500</pubDate></item><item><title>Crash Report #260293885 - TEXAS County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260293885</link><description>County: TEXAS
+
+Date/Time: 07/13/2026 12:30PM
+
+Location: STOOPS ROAD -- THREE MILES WEST OF SUMMERSVILLE</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260293885</guid><pubDate>Mon, 13 Jul 2026 12:30:00 -0500</pubDate></item><item><title>Crash Report #260295979 - LACLEDE County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260295979</link><description>County: LACLEDE
+
+Date/Time: 07/14/2026 5:47PM
+
+Location: HWY BB FIVE AND A HALF MILES NORTH OF LEBANON</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260295979</guid><pubDate>Tue, 14 Jul 2026 17:47:00 -0500</pubDate></item><item><title>Crash Report #260296261 - PULASKI County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260296261</link><description>County: PULASKI
+
+Date/Time: 07/14/2026 9:50PM
+
+Location: HIGHWAY 133 &amp; HIGHWAY T</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260296261</guid><pubDate>Tue, 14 Jul 2026 21:50:00 -0500</pubDate></item><item><title>Crash Report #260298828 - LACLEDE County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260298828</link><description>County: LACLEDE
+
+Date/Time: 07/16/2026 2:43PM
+
+Location: INTERSTATE 44 WESTBOUND AT THE 114.8 MILE MARKER</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260298828</guid><pubDate>Thu, 16 Jul 2026 14:43:00 -0500</pubDate></item><item><title>Crash Report #260299081 - DENT County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260299081</link><description>County: DENT
+
+Date/Time: 07/16/2026 5:10PM
+
+Location: HWY 19 AT COUNTY ROAD 4150</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260299081</guid><pubDate>Thu, 16 Jul 2026 17:10:00 -0500</pubDate></item><item><title>Crash Report #260299940 - PULASKI County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260299940</link><description>County: PULASKI
+
+Date/Time: 07/17/2026 10:03AM
+
+Location: HIGHWAY Y NEAR LAREDO ROAD</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260299940</guid><pubDate>Fri, 17 Jul 2026 10:03:00 -0500</pubDate></item><item><title>Crash Report #260300672 - PHELPS County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260300672</link><description>County: PHELPS
+
+Date/Time: 07/17/2026 5:04PM
+
+Location: HWY 63 AT VIRGIL FAULKNER DRIVE</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260300672</guid><pubDate>Fri, 17 Jul 2026 17:04:00 -0500</pubDate></item><item><title>Crash Report #260300812 - HOWELL County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260300812</link><description>County: HOWELL
+
+Date/Time: 07/17/2026 6:30PM
+
+Location: COUNTY ROAD 5120 EIGHT MILES SOUTH OF WILLOW SPRINGS</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260300812</guid><pubDate>Fri, 17 Jul 2026 18:30:00 -0500</pubDate></item><item><title>Crash Report #260300909 - WRIGHT County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260300909</link><description>County: WRIGHT
+
+Date/Time: 07/17/2026 7:50PM
+
+Location: MO 5 ONE MILE NORTH OF GROVESPRING</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260300909</guid><pubDate>Fri, 17 Jul 2026 19:50:00 -0500</pubDate></item><item><title>Crash Report #260302200 - LACLEDE County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260302200</link><description>County: LACLEDE
+
+Date/Time: 07/18/2026 2:50PM
+
+Location: I-44 142 MILE MARKER EASTBOUND</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260302200</guid><pubDate>Sat, 18 Jul 2026 14:50:00 -0500</pubDate></item><item><title>Crash Report #260302619 - PULASKI County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260302619</link><description>County: PULASKI
+
+Date/Time: 07/18/2026 5:48PM
+
+Location: INTERSTATE 44 EASTBOUND 157 MILE MARKER</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260302619</guid><pubDate>Sat, 18 Jul 2026 17:48:00 -0500</pubDate></item><item><title>Crash Report #260303878 - SHANNON County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260303878</link><description>County: SHANNON
+
+Date/Time: 07/19/2026 1:00PM
+
+Location: HIGHWAY 19 -- FIFTEEN MILES NORTH OF EMINENCE</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260303878</guid><pubDate>Sun, 19 Jul 2026 13:00:00 -0500</pubDate></item><item><title>Crash Report #260304703 - HOWELL County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260304703</link><description>County: HOWELL
+
+Date/Time: 07/20/2026 12:10AM
+
+Location: MO-CC, 5 MILES  WEST OF WEST PLAINS</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260304703</guid><pubDate>Mon, 20 Jul 2026 00:10:00 -0500</pubDate></item><item><title>Crash Report #260305267 - TEXAS County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260305267</link><description>County: TEXAS
+
+Date/Time: 07/20/2026 12:20PM
+
+Location: US HIGHWAY 63 AT HOUSTON CITY LIMITS (SOUTHERN)</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260305267</guid><pubDate>Mon, 20 Jul 2026 12:20:00 -0500</pubDate></item><item><title>Crash Report #260305372 - DOUGLAS County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260305372</link><description>County: DOUGLAS
+
+Date/Time: 07/20/2026 2:00PM
+
+Location: COUNTY ROAD 210  EIGHT MILES EAST OF AVA</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260305372</guid><pubDate>Mon, 20 Jul 2026 14:00:00 -0500</pubDate></item><item><title>Crash Report #260306115 - LACLEDE County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260306115</link><description>County: LACLEDE
+
+Date/Time: 07/21/2026 12:01AM
+
+Location: HIGHWAY 5  - 10 MILES SOUTH OF LEBANON</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260306115</guid><pubDate>Tue, 21 Jul 2026 00:01:00 -0500</pubDate></item><item><title>Crash Report #260308512 - WRIGHT County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260308512</link><description>County: WRIGHT
+
+Date/Time: 07/22/2026 2:40PM
+
+Location: OWENS ROAD AND STAIRSTEP ROAD</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260308512</guid><pubDate>Wed, 22 Jul 2026 14:40:00 -0500</pubDate></item><item><title>Crash Report #260308550 - LACLEDE County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260308550</link><description>County: LACLEDE
+
+Date/Time: 07/22/2026 2:50PM
+
+Location: HIGHWAY T 1/4 MILE WEST OF SWALLOW DR</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260308550</guid><pubDate>Wed, 22 Jul 2026 14:50:00 -0500</pubDate></item><item><title>Crash Report #260308859 - TEXAS County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260308859</link><description>County: TEXAS
+
+Date/Time: 07/22/2026 6:01PM
+
+Location: US-63 1 MILE NORTH OF HOUSTON</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260308859</guid><pubDate>Wed, 22 Jul 2026 18:01:00 -0500</pubDate></item><item><title>Crash Report #260309842 - HOWELL County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260309842</link><description>County: HOWELL
+
+Date/Time: 07/23/2026 12:00PM
+
+Location: MO 17 AT MO 142, LANTON</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260309842</guid><pubDate>Thu, 23 Jul 2026 12:00:00 -0500</pubDate></item><item><title>Crash Report #260310935 - HOWELL County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260310935</link><description>County: HOWELL
+
+Date/Time: 07/24/2026 6:25AM
+
+Location: COUNTY ROAD 6070 HALF MILE WEST OF WEST PLAINS</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260310935</guid><pubDate>Fri, 24 Jul 2026 06:25:00 -0500</pubDate></item><item><title>Crash Report #260311484 - LACLEDE County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260311484</link><description>County: LACLEDE
+
+Date/Time: 07/24/2026 1:04PM
+
+Location: MO-5 AND ORCHARD DR</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260311484</guid><pubDate>Fri, 24 Jul 2026 13:04:00 -0500</pubDate></item><item><title>Crash Report #260311526 - PHELPS County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260311526</link><description>County: PHELPS
+
+Date/Time: 07/24/2026 1:20PM
+
+Location: MO-Y AND CR 8240</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260311526</guid><pubDate>Fri, 24 Jul 2026 13:20:00 -0500</pubDate></item><item><title>Crash Report #260313206 - WRIGHT County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260313206</link><description>County: WRIGHT
+
+Date/Time: 07/25/2026 12:00PM
+
+Location: MO BB THREE MILES NORTH OF HARTVILLE</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260313206</guid><pubDate>Sat, 25 Jul 2026 12:00:00 -0500</pubDate></item><item><title>Crash Report #260313844 - SHANNON County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260313844</link><description>County: SHANNON
+
+Date/Time: 07/25/2026 5:00PM
+
+Location: HWY V 5 MILES NORTH EAST OF EMINENCE</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260313844</guid><pubDate>Sat, 25 Jul 2026 17:00:00 -0500</pubDate></item><item><title>Crash Report #260314881 - PHELPS County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260314881</link><description>County: PHELPS
+
+Date/Time: 07/26/2026 9:25AM
+
+Location: CR 7100 AND PVT DR 7106</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260314881</guid><pubDate>Sun, 26 Jul 2026 09:25:00 -0500</pubDate></item><item><title>Crash Report #260315782 - SHANNON County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260315782</link><description>County: SHANNON
+
+Date/Time: 07/26/2026 6:00PM
+
+Location: COUNTY ROAD 526 EIGHT MILES NORTHEAST OF WINONA</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260315782</guid><pubDate>Sun, 26 Jul 2026 18:00:00 -0500</pubDate></item><item><title>Crash Report #260316318 - SHANNON County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260316318</link><description>County: SHANNON
+
+Date/Time: 07/27/2026 9:00AM
+
+Location: HWY 19 12 MILES NORTH OF EMINENCE</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260316318</guid><pubDate>Mon, 27 Jul 2026 09:00:00 -0500</pubDate></item><item><title>Crash Report #260316427 - WRIGHT County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260316427</link><description>County: WRIGHT
+
+Date/Time: 07/27/2026 10:20AM
+
+Location: MO N 10 MILES NORTH OF NORWOOD</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260316427</guid><pubDate>Mon, 27 Jul 2026 10:20:00 -0500</pubDate></item><item><title>Crash Report #260316853 - PULASKI County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260316853</link><description>County: PULASKI
+
+Date/Time: 07/27/2026 2:20PM
+
+Location: HWY T 2.5 MILES NORTH OF WAYNESVILLE</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260316853</guid><pubDate>Mon, 27 Jul 2026 14:20:00 -0500</pubDate></item><item><title>Crash Report #260317000 - TEXAS County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260317000</link><description>County: TEXAS
+
+Date/Time: 07/27/2026 4:30PM
+
+Location: SECOND STREET AT CHERRY STREET IN SUMMERSVILLE CITY LIMITS</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260317000</guid><pubDate>Mon, 27 Jul 2026 16:30:00 -0500</pubDate></item><item><title>Crash Report #260317085 - LACLEDE County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260317085</link><description>County: LACLEDE
+
+Date/Time: 07/27/2026 5:15PM
+
+Location: HWY 32 AT THE INTERSECTION OF HWY Z</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260317085</guid><pubDate>Mon, 27 Jul 2026 17:15:00 -0500</pubDate></item><item><title>Crash Report #260318008 - PHELPS County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260318008</link><description>County: PHELPS
+
+Date/Time: 07/28/2026 11:37AM
+
+Location: 13900 HIGHWAY E</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260318008</guid><pubDate>Tue, 28 Jul 2026 11:37:00 -0500</pubDate></item><item><title>Crash Report #260318371 - LACLEDE County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260318371</link><description>County: LACLEDE
+
+Date/Time: 07/28/2026 3:45PM
+
+Location: HIGHWAY 32 1/2 MILE WEST OF ENGLISH ROAD</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260318371</guid><pubDate>Tue, 28 Jul 2026 15:45:00 -0500</pubDate></item><item><title>Crash Report #260318459 - HOWELL County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260318459</link><description>County: HOWELL
+
+Date/Time: 07/28/2026 4:27PM
+
+Location: US 160, AT COUNTY ROAD 1120, THREE MILES EAST OF WEST PLAINS</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260318459</guid><pubDate>Tue, 28 Jul 2026 16:27:00 -0500</pubDate></item><item><title>Crash Report #260319295 - PULASKI County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260319295</link><description>County: PULASKI
+
+Date/Time: 07/29/2026 9:53AM
+
+Location: I-44 150.6 MILE MARKER EASTBOUND</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260319295</guid><pubDate>Wed, 29 Jul 2026 09:53:00 -0500</pubDate></item><item><title>Crash Report #260319788 - DENT County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260319788</link><description>County: DENT
+
+Date/Time: 07/29/2026 2:50PM
+
+Location: HWY 32 10 MILES WEST OF SALEM</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260319788</guid><pubDate>Wed, 29 Jul 2026 14:50:00 -0500</pubDate></item><item><title>Crash Report #260319994 - DENT County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260319994</link><description>County: DENT
+
+Date/Time: 07/29/2026 5:00PM
+
+Location: HIGHWAY 32 AND COUNTY ROAD 5020</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260319994</guid><pubDate>Wed, 29 Jul 2026 17:00:00 -0500</pubDate></item><item><title>Crash Report #260320539 - TEXAS County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260320539</link><description>County: TEXAS
+
+Date/Time: 07/30/2026 6:50AM
+
+Location: US 63 FIVE MILES NORTH OF LICKING</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260320539</guid><pubDate>Thu, 30 Jul 2026 06:50:00 -0500</pubDate></item><item><title>Crash Report #260320609 - PHELPS County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260320609</link><description>County: PHELPS
+
+Date/Time: 07/30/2026 7:49AM
+
+Location: COUNTY ROAD 9000 AT HWY D</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260320609</guid><pubDate>Thu, 30 Jul 2026 07:49:00 -0500</pubDate></item><item><title>Crash Report #260320905 - HOWELL County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260320905</link><description>County: HOWELL
+
+Date/Time: 07/30/2026 11:02AM
+
+Location: THE INTERSECTION OF BILL VERDEN AND JAN HOWARD IN THE CITY OF WEST PLAINS</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260320905</guid><pubDate>Thu, 30 Jul 2026 11:02:00 -0500</pubDate></item><item><title>Crash Report #260320963 - LACLEDE County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260320963</link><description>County: LACLEDE
+
+Date/Time: 07/30/2026 11:45AM
+
+Location: HWY C .25 MILE NORTH OF HWY PP</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260320963</guid><pubDate>Thu, 30 Jul 2026 11:45:00 -0500</pubDate></item><item><title>Crash Report #260321260 - WRIGHT County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260321260</link><description>County: WRIGHT
+
+Date/Time: 07/30/2026 3:00PM
+
+Location: U.S. 60 1 MILE EAST OF MANSFIELD</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260321260</guid><pubDate>Thu, 30 Jul 2026 15:00:00 -0500</pubDate></item><item><title>Crash Report #260322099 - PHELPS County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260322099</link><description>County: PHELPS
+
+Date/Time: 07/31/2026 8:14AM
+
+Location: I-44 181.6 MILE MARKER EASTBOUND</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260322099</guid><pubDate>Fri, 31 Jul 2026 08:14:00 -0500</pubDate></item><item><title>Crash Report #260322632 - DOUGLAS County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260322632</link><description>County: DOUGLAS
+
+Date/Time: 07/31/2026 2:25PM
+
+Location: MO 5 TWO MILES NORTH OF AVA</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260322632</guid><pubDate>Fri, 31 Jul 2026 14:25:00 -0500</pubDate></item><item><title>Crash Report #260323023 - PHELPS County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260323023</link><description>County: PHELPS
+
+Date/Time: 07/31/2026 6:30PM
+
+Location: HIGHWAY 68 NEAR COUNTY ROAD 4470</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260323023</guid><pubDate>Fri, 31 Jul 2026 18:30:00 -0500</pubDate></item><item><title>Crash Report #260323370 - DENT County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260323370</link><description>County: DENT
+
+Date/Time: 07/31/2026 10:35PM
+
+Location: HWY 32 FIVE HUNDRED FEET WEST OF COUNTY ROAD 2405</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260323370</guid><pubDate>Fri, 31 Jul 2026 22:35:00 -0500</pubDate></item><item><title>Crash Report #260322764 - PHELPS County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260322764</link><description>County: PHELPS
+
+Date/Time: 08/01/2026 12:18PM
+
+Location: 16226 HIGHWAY O</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260322764</guid><pubDate>Sat, 01 Aug 2026 12:18:00 -0500</pubDate></item><item><title>Crash Report #260324939 - TEXAS County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260324939</link><description>County: TEXAS
+
+Date/Time: 08/02/2026 12:45AM
+
+Location: US-63 SIX MILES NORTH OF LICKING</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260324939</guid><pubDate>Sun, 02 Aug 2026 00:45:00 -0500</pubDate></item><item><title>Crash Report #260325022 - PULASKI County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260325022</link><description>County: PULASKI
+
+Date/Time: 08/02/2026 3:35AM
+
+Location: HWY O AT THE INTERSECTION OF CONCORD ROAD</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260325022</guid><pubDate>Sun, 02 Aug 2026 03:35:00 -0500</pubDate></item><item><title>Crash Report #260325802 - SHANNON County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260325802</link><description>County: SHANNON
+
+Date/Time: 08/02/2026 4:00PM
+
+Location: MO 19   SEVENTEEN MILES NORTH OF EMINENCE</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260325802</guid><pubDate>Sun, 02 Aug 2026 16:00:00 -0500</pubDate></item><item><title>Crash Report #260325879 - WRIGHT County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260325879</link><description>County: WRIGHT
+
+Date/Time: 08/02/2026 4:50PM
+
+Location: HWY F SEVEN MILES NORTHWEST OF HARTVILLE</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260325879</guid><pubDate>Sun, 02 Aug 2026 16:50:00 -0500</pubDate></item><item><title>Crash Report #260326327 - PHELPS County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260326327</link><description>County: PHELPS
+
+Date/Time: 08/02/2026 10:22PM
+
+Location: 178.8 I-44 EASTBOUND MILE MARKER</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260326327</guid><pubDate>Sun, 02 Aug 2026 22:22:00 -0500</pubDate></item><item><title>Crash Report #260326424 - LACLEDE County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260326424</link><description>County: LACLEDE
+
+Date/Time: 08/03/2026 2:00AM
+
+Location: I-44 142.8 EASTBOUND MILE MARKER</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260326424</guid><pubDate>Mon, 03 Aug 2026 02:00:00 -0500</pubDate></item><item><title>Crash Report #260327490 - DENT County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260327490</link><description>County: DENT
+
+Date/Time: 08/03/2026 5:45PM
+
+Location: COUNTY ROAD 2240 ONE MILE WEST OF COUNTY ROAD 2250</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260327490</guid><pubDate>Mon, 03 Aug 2026 17:45:00 -0500</pubDate></item></channel></rss>
