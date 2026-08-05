@@ -21,7 +21,7 @@ SEARCH_URLS = [
 ]
 
 def parse_mshp_date(date_str):
-    """Parses MSHP date strings (e.g., '08/04/2026 11:14AM') to UTC datetime."""
+    """Parses MSHP date strings to UTC datetime."""
     try:
         clean_str = re.sub(r'\s+', ' ', date_str).strip()
         dt = datetime.strptime(clean_str, "%m/%d/%Y %I:%M%p")
@@ -116,4 +116,21 @@ def generate_rss(reports):
     for item in reports:
         fe = fg.add_entry()
         fe.id(item["url"])
-        fe.title(f"Crash Report
+        fe.title(f"Crash Report #{item['id']} - {item['county']} County")
+        fe.link(href=item["url"])
+        fe.pubDate(item['parsed_date'])
+        
+        formatted_description = (
+            f"County: {item['county']}\n\n"
+            f"Date/Time: {item['date_str']}\n\n"
+            f"Location: {item['location']}"
+        )
+        fe.description(formatted_description)
+
+    fg.rss_file("index.html")
+    fg.rss_file("feed.xml")
+
+if __name__ == "__main__":
+    reports = fetch_crash_reports()
+    generate_rss(reports)
+    print(f"Generated clean RSS feed with {len(reports)} items.")
