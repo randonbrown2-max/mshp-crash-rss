@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
 from datetime import datetime, timezone, timedelta
-from urllib.parse import urljoin
+from urllib.parse import urljoin, parse_qs, urlparse
 import re
 
 # Base URL used to resolve relative links safely
@@ -37,8 +37,6 @@ def fetch_crash_reports():
     
     reports = []
     seen_ids = set()
-    
-    # MSHP retains online crash reports for roughly 29 days
     cutoff_date = datetime.now(timezone.utc) - timedelta(days=29)
 
     for url in SEARCH_URLS:
@@ -60,35 +58,39 @@ def fetch_crash_reports():
                 if len(cols) >= 10:
                     text_content = [c.get_text(strip=True) for c in cols]
                     
-                    # Skip table header rows
                     if "Report" in text_content[0] or "Crash County" in text_content:
                         continue
 
-                    report_id = text_content[0]
+                    # Extract relative or full report link
+                    link = row.find("a")
+                    report_url = url
+                    report_id = "Unknown"
+
+                    if link and "href" in link.attrs:
+                        href = link["href"]
+                        report_url = urljoin(BASE_MSHP_URL, href)
+                        
+                        # Extract ACC_RPT_NUM from URL query params (e.g., ACC_RPT_NUM=260320905)
+                        parsed_url = urlparse(href)
+                        query_params = parse_qs(parsed_url.query)
+                        if "ACC_RPT_NUM" in query_params:
+                            report_id = query_params["ACC_RPT_NUM"][0]
+
                     date_val = text_content[6]
                     time_val = text_content[7] if len(text_content) > 7 else ""
                     date_str = f"{date_val} {time_val}".strip()
                     parsed_dt = parse_mshp_date(date_str)
 
-                    # 29-Day Cutoff Filter
                     if parsed_dt < cutoff_date:
                         continue
 
                     county = text_content[8].upper()
                     location = text_content[9]
 
-                    # Deduplicate by Report ID + County (handles multi-person crash rows)
                     dedup_key = f"{report_id}-{county}"
                     if dedup_key in seen_ids:
                         continue
                     seen_ids.add(dedup_key)
-
-                    # Extract relative or full report links
-                    link = row.find("a")
-                    if link and "href" in link.attrs:
-                        report_url = urljoin(BASE_MSHP_URL, link["href"])
-                    else:
-                        report_url = url
 
                     reports.append({
                         "id": report_id,
@@ -110,7 +112,6 @@ def generate_rss(reports):
     fg.description("Automated RSS feed for Texas County and surrounding Missouri counties.")
     fg.language("en")
 
-    # Sort reports newest first
     reports.sort(key=lambda x: x['parsed_date'], reverse=True)
 
     for item in reports:
