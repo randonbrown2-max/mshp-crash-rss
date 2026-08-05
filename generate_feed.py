@@ -5,20 +5,20 @@ from datetime import datetime, timezone, timedelta
 from urllib.parse import urljoin, parse_qs, urlparse
 import re
 
-# Base URL used to resolve relative links safely
 BASE_MSHP_URL = "https://www.mshp.dps.mo.gov/HP68/"
 
-# Target Counties (South-Central Missouri)
-TARGET_COUNTIES = [
-    "TEXAS", "PHELPS", "DENT", "SHANNON", 
-    "HOWELL", "DOUGLAS", "WRIGHT", "LACLEDE", "PULASKI"
+# Troop coverage for South-Central Missouri and surrounding borders
+# Troop G (Willow Springs), Troop I (Rolla), Troop F (Jefferson City), Troop D (Springfield)
+TROOPS = ["G", "I", "F", "D"]
+SEARCH_URLS = [
+    f"https://www.mshp.dps.mo.gov/HP68/SearchAction?searchTroop={troop}"
+    for troop in TROOPS
 ]
 
-# Generate endpoints per county using MSHP's sCounty query parameter
-SEARCH_URLS = [
-    f"https://www.mshp.dps.mo.gov/HP68/SearchAction?sCounty={county}"
-    for county in TARGET_COUNTIES
-]
+TARGET_COUNTIES = {
+    "TEXAS", "PHELPS", "DENT", "SHANNON", 
+    "HOWELL", "DOUGLAS", "WRIGHT", "LACLEDE", "PULASKI"
+}
 
 def parse_mshp_date(date_str):
     """Parses MSHP date strings to UTC datetime."""
@@ -61,7 +61,13 @@ def fetch_crash_reports():
                     if "Report" in text_content[0] or "Crash County" in text_content:
                         continue
 
-                    # Extract relative or full report link
+                    county = text_content[8].upper()
+
+                    # Filter by Target Counties
+                    if not any(target in county for target in TARGET_COUNTIES):
+                        continue
+
+                    # Extract relative link & ACC_RPT_NUM report ID
                     link = row.find("a")
                     report_url = url
                     report_id = "Unknown"
@@ -70,7 +76,6 @@ def fetch_crash_reports():
                         href = link["href"]
                         report_url = urljoin(BASE_MSHP_URL, href)
                         
-                        # Extract ACC_RPT_NUM from URL query params (e.g., ACC_RPT_NUM=260320905)
                         parsed_url = urlparse(href)
                         query_params = parse_qs(parsed_url.query)
                         if "ACC_RPT_NUM" in query_params:
@@ -81,12 +86,13 @@ def fetch_crash_reports():
                     date_str = f"{date_val} {time_val}".strip()
                     parsed_dt = parse_mshp_date(date_str)
 
+                    # 29-day rolling timeframe check
                     if parsed_dt < cutoff_date:
                         continue
 
-                    county = text_content[8].upper()
                     location = text_content[9]
 
+                    # Deduplicate by Report ID + County (handles multi-person accident rows)
                     dedup_key = f"{report_id}-{county}"
                     if dedup_key in seen_ids:
                         continue
