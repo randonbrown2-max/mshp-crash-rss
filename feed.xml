@@ -1,9 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Texas County &amp; South-Central MO Crash Reports</title><link>https://www.mshp.dps.mo.gov/HP68/search.jsp</link><description>Automated RSS feed for Texas County and surrounding Missouri counties.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Tue, 18 Aug 2026 00:30:40 +0000</lastBuildDate><item><title>Crash Report #260304703 - HOWELL County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260304703</link><description>County: HOWELL
-
-Date/Time: 07/20/2026 12:10AM
-
-Location: MO-CC, 5 MILES  WEST OF WEST PLAINS</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260304703</guid><pubDate>Mon, 20 Jul 2026 00:10:00 -0500</pubDate></item><item><title>Crash Report #260305267 - TEXAS County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260305267</link><description>County: TEXAS
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Texas County &amp; South-Central MO Crash Reports</title><link>https://www.mshp.dps.mo.gov/HP68/search.jsp</link><description>Automated RSS feed for Texas County and surrounding Missouri counties.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Tue, 18 Aug 2026 06:21:04 +0000</lastBuildDate><item><title>Crash Report #260305267 - TEXAS County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260305267</link><description>County: TEXAS
 
 Date/Time: 07/20/2026 12:20PM
 
@@ -247,7 +243,15 @@ Location: DOVE CREEK ROAD TEN MILES NORTH OF MOUNTAIN GROVE</description><guid i
 
 Date/Time: 08/16/2026 11:14PM
 
-Location: COUNTY ROAD 3060 1/4 MILES EAST OF ROLLA</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260348121</guid><pubDate>Sun, 16 Aug 2026 23:14:00 -0500</pubDate></item><item><title>Crash Report #260348700 - SHANNON County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260348700</link><description>County: SHANNON
+Location: COUNTY ROAD 3060 1/4 MILES EAST OF ROLLA</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260348121</guid><pubDate>Sun, 16 Aug 2026 23:14:00 -0500</pubDate></item><item><title>Crash Report #260348640 - LACLEDE County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260348640</link><description>County: LACLEDE
+
+Date/Time: 08/17/2026 3:27PM
+
+Location: RAIL ROAD 1/2 MILE SOUTH OF HIGHWAY JJ</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260348640</guid><pubDate>Mon, 17 Aug 2026 15:27:00 -0500</pubDate></item><item><title>Crash Report #260348701 - DOUGLAS County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260348701</link><description>County: DOUGLAS
+
+Date/Time: 08/17/2026 4:10PM
+
+Location: CR 14-279, FIVE MILES NORTH OF DORA</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260348701</guid><pubDate>Mon, 17 Aug 2026 16:10:00 -0500</pubDate></item><item><title>Crash Report #260348700 - SHANNON County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260348700</link><description>County: SHANNON
 
 Date/Time: 08/17/2026 4:10PM
 
