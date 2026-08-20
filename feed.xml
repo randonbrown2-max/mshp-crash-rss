@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Texas County &amp; South-Central MO Crash Reports</title><link>https://www.mshp.dps.mo.gov/HP68/search.jsp</link><description>Automated RSS feed for Texas County and surrounding Missouri counties.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Wed, 19 Aug 2026 18:16:07 +0000</lastBuildDate><item><title>Crash Report #260308512 - WRIGHT County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260308512</link><description>County: WRIGHT
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Texas County &amp; South-Central MO Crash Reports</title><link>https://www.mshp.dps.mo.gov/HP68/search.jsp</link><description>Automated RSS feed for Texas County and surrounding Missouri counties.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Thu, 20 Aug 2026 00:31:07 +0000</lastBuildDate><item><title>Crash Report #260308512 - WRIGHT County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260308512</link><description>County: WRIGHT
 
 Date/Time: 07/22/2026 2:40PM
 
@@ -255,4 +255,8 @@ Location: CEDAR GROVE CONSERVATION AREA ACCESS POINT, 1 MILE NORTH OF HIGHWAY WW
 
 Date/Time: 08/19/2026 7:30AM
 
-Location: INTERSTATE 44 EASTBOUND NEAR THE 181.2 MILE MARKER</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260350762</guid><pubDate>Wed, 19 Aug 2026 07:30:00 -0500</pubDate></item></channel></rss>
+Location: INTERSTATE 44 EASTBOUND NEAR THE 181.2 MILE MARKER</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260350762</guid><pubDate>Wed, 19 Aug 2026 07:30:00 -0500</pubDate></item><item><title>Crash Report #260351296 - LACLEDE County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260351296</link><description>County: LACLEDE
+
+Date/Time: 08/19/2026 1:30PM
+
+Location: FOXTAIL ROAD QUARTER OF A MILE FROM NORMANDY DR</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260351296</guid><pubDate>Wed, 19 Aug 2026 13:30:00 -0500</pubDate></item></channel></rss>
