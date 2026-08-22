@@ -1,9 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Texas County &amp; South-Central MO Crash Reports</title><link>https://www.mshp.dps.mo.gov/HP68/search.jsp</link><description>Automated RSS feed for Texas County and surrounding Missouri counties.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Sat, 22 Aug 2026 12:14:10 +0000</lastBuildDate><item><title>Crash Report #260311484 - LACLEDE County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260311484</link><description>County: LACLEDE
-
-Date/Time: 07/24/2026 1:04PM
-
-Location: MO-5 AND ORCHARD DR</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260311484</guid><pubDate>Fri, 24 Jul 2026 13:04:00 -0500</pubDate></item><item><title>Crash Report #260311526 - PHELPS County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260311526</link><description>County: PHELPS
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Texas County &amp; South-Central MO Crash Reports</title><link>https://www.mshp.dps.mo.gov/HP68/search.jsp</link><description>Automated RSS feed for Texas County and surrounding Missouri counties.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Sat, 22 Aug 2026 18:11:53 +0000</lastBuildDate><item><title>Crash Report #260311526 - PHELPS County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260311526</link><description>County: PHELPS
 
 Date/Time: 07/24/2026 1:20PM
 
@@ -267,4 +263,8 @@ Location: HIGHWAY V AT COUNTY ROAD 2220</description><guid isPermaLink="false">h
 
 Date/Time: 08/21/2026 5:35PM
 
-Location: COUNTY ROAD 3380 FOUR MILES EAST OF WILLOW SPRINGS</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260354656</guid><pubDate>Fri, 21 Aug 2026 17:35:00 -0500</pubDate></item></channel></rss>
+Location: COUNTY ROAD 3380 FOUR MILES EAST OF WILLOW SPRINGS</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260354656</guid><pubDate>Fri, 21 Aug 2026 17:35:00 -0500</pubDate></item><item><title>Crash Report #260355453 - LACLEDE County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260355453</link><description>County: LACLEDE
+
+Date/Time: 08/22/2026 7:45AM
+
+Location: INTERSTATE 44 AT MILE MARKER 141.0 WESTBOUND</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260355453</guid><pubDate>Sat, 22 Aug 2026 07:45:00 -0500</pubDate></item></channel></rss>
