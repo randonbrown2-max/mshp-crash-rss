@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Texas County &amp; South-Central MO Crash Reports</title><link>https://www.mshp.dps.mo.gov/HP68/search.jsp</link><description>Automated RSS feed for Texas County and surrounding Missouri counties.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Fri, 21 Aug 2026 18:19:17 +0000</lastBuildDate><item><title>Crash Report #260310935 - HOWELL County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260310935</link><description>County: HOWELL
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Texas County &amp; South-Central MO Crash Reports</title><link>https://www.mshp.dps.mo.gov/HP68/search.jsp</link><description>Automated RSS feed for Texas County and surrounding Missouri counties.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Sat, 22 Aug 2026 00:30:50 +0000</lastBuildDate><item><title>Crash Report #260310935 - HOWELL County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260310935</link><description>County: HOWELL
 
 Date/Time: 07/24/2026 6:25AM
 
@@ -251,4 +251,20 @@ Location: MO CC  .5 MILE WEST OF WEST PLAINS</description><guid isPermaLink="fal
 
 Date/Time: 08/20/2026 3:00PM
 
-Location: HIGHWAY 72 AND COUNTY ROAD 5285</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260352888</guid><pubDate>Thu, 20 Aug 2026 15:00:00 -0500</pubDate></item></channel></rss>
+Location: HIGHWAY 72 AND COUNTY ROAD 5285</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260352888</guid><pubDate>Thu, 20 Aug 2026 15:00:00 -0500</pubDate></item><item><title>Crash Report #260354037 - HOWELL County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260354037</link><description>County: HOWELL
+
+Date/Time: 08/21/2026 11:30AM
+
+Location: MO E FIVE MILES SOUTH OF SOUTH FORK</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260354037</guid><pubDate>Fri, 21 Aug 2026 11:30:00 -0500</pubDate></item><item><title>Crash Report #260354139 - HOWELL County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260354139</link><description>County: HOWELL
+
+Date/Time: 08/21/2026 12:57PM
+
+Location: US 63 AT MO ZZ</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260354139</guid><pubDate>Fri, 21 Aug 2026 12:57:00 -0500</pubDate></item><item><title>Crash Report #260354421 - PHELPS County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260354421</link><description>County: PHELPS
+
+Date/Time: 08/21/2026 4:16PM
+
+Location: US-63 - 3 MILES SOUTH OF ROLLA</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260354421</guid><pubDate>Fri, 21 Aug 2026 16:16:00 -0500</pubDate></item><item><title>Crash Report #260354656 - HOWELL County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260354656</link><description>County: HOWELL
+
+Date/Time: 08/21/2026 5:35PM
+
+Location: COUNTY ROAD 3380 FOUR MILES EAST OF WILLOW SPRINGS</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260354656</guid><pubDate>Fri, 21 Aug 2026 17:35:00 -0500</pubDate></item></channel></rss>
