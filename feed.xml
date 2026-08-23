@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Texas County &amp; South-Central MO Crash Reports</title><link>https://www.mshp.dps.mo.gov/HP68/search.jsp</link><description>Automated RSS feed for Texas County and surrounding Missouri counties.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Sun, 23 Aug 2026 00:33:32 +0000</lastBuildDate><item><title>Crash Report #260313206 - WRIGHT County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260313206</link><description>County: WRIGHT
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Texas County &amp; South-Central MO Crash Reports</title><link>https://www.mshp.dps.mo.gov/HP68/search.jsp</link><description>Automated RSS feed for Texas County and surrounding Missouri counties.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Sun, 23 Aug 2026 06:19:52 +0000</lastBuildDate><item><title>Crash Report #260313206 - WRIGHT County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260313206</link><description>County: WRIGHT
 
 Date/Time: 07/25/2026 12:00PM
 
@@ -263,4 +263,12 @@ Location: COUNTY ROAD 3380 FOUR MILES EAST OF WILLOW SPRINGS</description><guid 
 
 Date/Time: 08/22/2026 7:45AM
 
-Location: INTERSTATE 44 AT MILE MARKER 141.0 WESTBOUND</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260355453</guid><pubDate>Sat, 22 Aug 2026 07:45:00 -0500</pubDate></item></channel></rss>
+Location: INTERSTATE 44 AT MILE MARKER 141.0 WESTBOUND</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260355453</guid><pubDate>Sat, 22 Aug 2026 07:45:00 -0500</pubDate></item><item><title>Crash Report #260356551 - TEXAS County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260356551</link><description>County: TEXAS
+
+Date/Time: 08/22/2026 7:20PM
+
+Location: HWY B 4  MILES EAST OF RAYMONDVILLE</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260356551</guid><pubDate>Sat, 22 Aug 2026 19:20:00 -0500</pubDate></item><item><title>Crash Report #260356613 - PHELPS County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260356613</link><description>County: PHELPS
+
+Date/Time: 08/22/2026 8:05PM
+
+Location: 600 BLOCK OF W JAMES BLVD ST JAMES</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260356613</guid><pubDate>Sat, 22 Aug 2026 20:05:00 -0500</pubDate></item></channel></rss>
