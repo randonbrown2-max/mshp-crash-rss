@@ -1,9 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Texas County &amp; South-Central MO Crash Reports</title><link>https://www.mshp.dps.mo.gov/HP68/search.jsp</link><description>Automated RSS feed for Texas County and surrounding Missouri counties.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Sun, 23 Aug 2026 12:15:04 +0000</lastBuildDate><item><title>Crash Report #260313206 - WRIGHT County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260313206</link><description>County: WRIGHT
-
-Date/Time: 07/25/2026 12:00PM
-
-Location: MO BB THREE MILES NORTH OF HARTVILLE</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260313206</guid><pubDate>Sat, 25 Jul 2026 12:00:00 -0500</pubDate></item><item><title>Crash Report #260313844 - SHANNON County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260313844</link><description>County: SHANNON
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Texas County &amp; South-Central MO Crash Reports</title><link>https://www.mshp.dps.mo.gov/HP68/search.jsp</link><description>Automated RSS feed for Texas County and surrounding Missouri counties.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Sun, 23 Aug 2026 18:11:27 +0000</lastBuildDate><item><title>Crash Report #260313844 - SHANNON County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260313844</link><description>County: SHANNON
 
 Date/Time: 07/25/2026 5:00PM
 
@@ -271,4 +267,8 @@ Location: HWY B 4  MILES EAST OF RAYMONDVILLE</description><guid isPermaLink="fa
 
 Date/Time: 08/22/2026 8:05PM
 
-Location: 600 BLOCK OF W JAMES BLVD ST JAMES</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260356613</guid><pubDate>Sat, 22 Aug 2026 20:05:00 -0500</pubDate></item></channel></rss>
+Location: 600 BLOCK OF W JAMES BLVD ST JAMES</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260356613</guid><pubDate>Sat, 22 Aug 2026 20:05:00 -0500</pubDate></item><item><title>Crash Report #260356756 - PHELPS County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260356756</link><description>County: PHELPS
+
+Date/Time: 08/22/2026 9:30PM
+
+Location: HIGHWAY YY, 1 MILE WEST OF CRAWFORD COUNTY LINE</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260356756</guid><pubDate>Sat, 22 Aug 2026 21:30:00 -0500</pubDate></item></channel></rss>
