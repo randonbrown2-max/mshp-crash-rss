@@ -1,13 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Texas County &amp; South-Central MO Crash Reports</title><link>https://www.mshp.dps.mo.gov/HP68/search.jsp</link><description>Automated RSS feed for Texas County and surrounding Missouri counties.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Tue, 25 Aug 2026 12:22:01 +0000</lastBuildDate><item><title>Crash Report #260316318 - SHANNON County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260316318</link><description>County: SHANNON
-
-Date/Time: 07/27/2026 9:00AM
-
-Location: HWY 19 12 MILES NORTH OF EMINENCE</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260316318</guid><pubDate>Mon, 27 Jul 2026 09:00:00 -0500</pubDate></item><item><title>Crash Report #260316427 - WRIGHT County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260316427</link><description>County: WRIGHT
-
-Date/Time: 07/27/2026 10:20AM
-
-Location: MO N 10 MILES NORTH OF NORWOOD</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260316427</guid><pubDate>Mon, 27 Jul 2026 10:20:00 -0500</pubDate></item><item><title>Crash Report #260316853 - PULASKI County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260316853</link><description>County: PULASKI
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Texas County &amp; South-Central MO Crash Reports</title><link>https://www.mshp.dps.mo.gov/HP68/search.jsp</link><description>Automated RSS feed for Texas County and surrounding Missouri counties.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Tue, 25 Aug 2026 18:21:01 +0000</lastBuildDate><item><title>Crash Report #260316853 - PULASKI County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260316853</link><description>County: PULASKI
 
 Date/Time: 07/27/2026 2:20PM
 
@@ -279,4 +271,8 @@ Location: 6 MILES WEST OF MOUNTAIN VIEW ON COUNTY ROAD 2980</description><guid i
 
 Date/Time: 08/24/2026 2:00PM
 
-Location: 2 MILES SOUTH OF WEST PLAINS ON US-63</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260358976</guid><pubDate>Mon, 24 Aug 2026 14:00:00 -0500</pubDate></item></channel></rss>
+Location: 2 MILES SOUTH OF WEST PLAINS ON US-63</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260358976</guid><pubDate>Mon, 24 Aug 2026 14:00:00 -0500</pubDate></item><item><title>Crash Report #260359727 - PHELPS County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260359727</link><description>County: PHELPS
+
+Date/Time: 08/25/2026 7:25AM
+
+Location: COUNTY ROAD 3060 EAST OF HIGHWAY V</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260359727</guid><pubDate>Tue, 25 Aug 2026 07:25:00 -0500</pubDate></item></channel></rss>
