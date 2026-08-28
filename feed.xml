@@ -1,13 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Texas County &amp; South-Central MO Crash Reports</title><link>https://www.mshp.dps.mo.gov/HP68/search.jsp</link><description>Automated RSS feed for Texas County and surrounding Missouri counties.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Thu, 27 Aug 2026 16:57:41 +0000</lastBuildDate><item><title>Crash Report #260319788 - DENT County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260319788</link><description>County: DENT
-
-Date/Time: 07/29/2026 2:50PM
-
-Location: HWY 32 10 MILES WEST OF SALEM</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260319788</guid><pubDate>Wed, 29 Jul 2026 14:50:00 -0500</pubDate></item><item><title>Crash Report #260319994 - DENT County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260319994</link><description>County: DENT
-
-Date/Time: 07/29/2026 5:00PM
-
-Location: HIGHWAY 32 AND COUNTY ROAD 5020</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260319994</guid><pubDate>Wed, 29 Jul 2026 17:00:00 -0500</pubDate></item><item><title>Crash Report #260320539 - TEXAS County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260320539</link><description>County: TEXAS
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Texas County &amp; South-Central MO Crash Reports</title><link>https://www.mshp.dps.mo.gov/HP68/search.jsp</link><description>Automated RSS feed for Texas County and surrounding Missouri counties.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Fri, 28 Aug 2026 01:50:14 +0000</lastBuildDate><item><title>Crash Report #260320539 - TEXAS County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260320539</link><description>County: TEXAS
 
 Date/Time: 07/30/2026 6:50AM
 
@@ -255,4 +247,12 @@ Location: HWY 32 NEAR HWY P</description><guid isPermaLink="false">https://www.m
 
 Date/Time: 08/26/2026 8:30PM
 
-Location: HWY BB APPROXIMATELY FIVE MILES SOUTHWEST OF LICKING</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260362383</guid><pubDate>Wed, 26 Aug 2026 20:30:00 -0500</pubDate></item></channel></rss>
+Location: HWY BB APPROXIMATELY FIVE MILES SOUTHWEST OF LICKING</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260362383</guid><pubDate>Wed, 26 Aug 2026 20:30:00 -0500</pubDate></item><item><title>Crash Report #260362614 - LACLEDE County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260362614</link><description>County: LACLEDE
+
+Date/Time: 08/27/2026 4:40AM
+
+Location: HWY N NORTH OF HWY MM</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260362614</guid><pubDate>Thu, 27 Aug 2026 04:40:00 -0500</pubDate></item><item><title>Crash Report #260363300 - PHELPS County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260363300</link><description>County: PHELPS
+
+Date/Time: 08/27/2026 12:36PM
+
+Location: HIGHWAY 63 AT COUNTY ROAD 5300</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260363300</guid><pubDate>Thu, 27 Aug 2026 12:36:00 -0500</pubDate></item></channel></rss>
