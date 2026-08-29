@@ -1,9 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Texas County &amp; South-Central MO Crash Reports</title><link>https://www.mshp.dps.mo.gov/HP68/search.jsp</link><description>Automated RSS feed for Texas County and surrounding Missouri counties.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Sat, 29 Aug 2026 15:50:20 +0000</lastBuildDate><item><title>Crash Report #260322632 - DOUGLAS County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260322632</link><description>County: DOUGLAS
-
-Date/Time: 07/31/2026 2:25PM
-
-Location: MO 5 TWO MILES NORTH OF AVA</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260322632</guid><pubDate>Fri, 31 Jul 2026 14:25:00 -0500</pubDate></item><item><title>Crash Report #260323023 - PHELPS County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260323023</link><description>County: PHELPS
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Texas County &amp; South-Central MO Crash Reports</title><link>https://www.mshp.dps.mo.gov/HP68/search.jsp</link><description>Automated RSS feed for Texas County and surrounding Missouri counties.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Sat, 29 Aug 2026 20:04:54 +0000</lastBuildDate><item><title>Crash Report #260323023 - PHELPS County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260323023</link><description>County: PHELPS
 
 Date/Time: 07/31/2026 6:30PM
 
@@ -247,4 +243,8 @@ Location: BUS 60 EAST OF MOUNTAIN GROVE 1.5 MILES</description><guid isPermaLink
 
 Date/Time: 08/28/2026 5:50AM
 
-Location: HIGHWAY BB THREE MILES WEST OF US 63/SOUTHWEST OF LICKING</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260364281</guid><pubDate>Fri, 28 Aug 2026 05:50:00 -0500</pubDate></item></channel></rss>
+Location: HIGHWAY BB THREE MILES WEST OF US 63/SOUTHWEST OF LICKING</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260364281</guid><pubDate>Fri, 28 Aug 2026 05:50:00 -0500</pubDate></item><item><title>Crash Report #260366345 - LACLEDE County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260366345</link><description>County: LACLEDE
+
+Date/Time: 08/29/2026 9:48AM
+
+Location: HIGHWAY 5 ONE MILE SOUTH OF HIGHWAY E</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260366345</guid><pubDate>Sat, 29 Aug 2026 09:48:00 -0500</pubDate></item></channel></rss>
