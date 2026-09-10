@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Texas County &amp; South-Central MO Crash Reports</title><link>https://www.mshp.dps.mo.gov/HP68/search.jsp</link><description>Automated RSS feed for Texas County and surrounding Missouri counties.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Thu, 10 Sep 2026 15:20:47 +0000</lastBuildDate><item><title>Crash Report #260341369 - PHELPS County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260341369</link><description>County: PHELPS
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Texas County &amp; South-Central MO Crash Reports</title><link>https://www.mshp.dps.mo.gov/HP68/search.jsp</link><description>Automated RSS feed for Texas County and surrounding Missouri counties.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Thu, 10 Sep 2026 20:09:39 +0000</lastBuildDate><item><title>Crash Report #260341369 - PHELPS County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260341369</link><description>County: PHELPS
 
 Date/Time: 08/12/2026 5:15PM
 
@@ -263,4 +263,8 @@ Location: MISSOURI 5 FOUR MILES NORTH OF AVA</description><guid isPermaLink="fal
 
 Date/Time: 09/10/2026 12:30AM
 
-Location: COUNTY ROAD 6980  7 MILES SOUTHWEST OF WEST PLAINS</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260386406</guid><pubDate>Thu, 10 Sep 2026 00:30:00 -0500</pubDate></item></channel></rss>
+Location: COUNTY ROAD 6980  7 MILES SOUTHWEST OF WEST PLAINS</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260386406</guid><pubDate>Thu, 10 Sep 2026 00:30:00 -0500</pubDate></item><item><title>Crash Report #260386496 - SHANNON County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260386496</link><description>County: SHANNON
+
+Date/Time: 09/10/2026 7:40AM
+
+Location: US 60 THREE MILES WEST OF BIRCH TREE</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260386496</guid><pubDate>Thu, 10 Sep 2026 07:40:00 -0500</pubDate></item></channel></rss>
