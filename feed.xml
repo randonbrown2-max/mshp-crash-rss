@@ -1,9 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Texas County &amp; South-Central MO Crash Reports</title><link>https://www.mshp.dps.mo.gov/HP68/search.jsp</link><description>Automated RSS feed for Texas County and surrounding Missouri counties.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Tue, 15 Sep 2026 15:48:14 +0000</lastBuildDate><item><title>Crash Report #260348640 - LACLEDE County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260348640</link><description>County: LACLEDE
-
-Date/Time: 08/17/2026 3:27PM
-
-Location: RAIL ROAD 1/2 MILE SOUTH OF HIGHWAY JJ</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260348640</guid><pubDate>Mon, 17 Aug 2026 15:27:00 -0500</pubDate></item><item><title>Crash Report #260348701 - DOUGLAS County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260348701</link><description>County: DOUGLAS
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Texas County &amp; South-Central MO Crash Reports</title><link>https://www.mshp.dps.mo.gov/HP68/search.jsp</link><description>Automated RSS feed for Texas County and surrounding Missouri counties.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Tue, 15 Sep 2026 20:32:29 +0000</lastBuildDate><item><title>Crash Report #260348701 - DOUGLAS County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260348701</link><description>County: DOUGLAS
 
 Date/Time: 08/17/2026 4:10PM
 
@@ -287,4 +283,8 @@ Location: 1 MILE EAST OF WEST PLAINS ON STATE ROUTE ZZ</description><guid isPerm
 
 Date/Time: 09/14/2026 12:15PM
 
-Location: MO 95 THREE MILES NORTH OF MOUNTAIN GROVE</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260392555</guid><pubDate>Mon, 14 Sep 2026 12:15:00 -0500</pubDate></item></channel></rss>
+Location: MO 95 THREE MILES NORTH OF MOUNTAIN GROVE</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260392555</guid><pubDate>Mon, 14 Sep 2026 12:15:00 -0500</pubDate></item><item><title>Crash Report #260393965 - WRIGHT County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260393965</link><description>County: WRIGHT
+
+Date/Time: 09/15/2026 1:30PM
+
+Location: M HWY  5 MILES WEST OF GROVESPRINGS</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260393965</guid><pubDate>Tue, 15 Sep 2026 13:30:00 -0500</pubDate></item></channel></rss>
