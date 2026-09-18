@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Texas County &amp; South-Central MO Crash Reports</title><link>https://www.mshp.dps.mo.gov/HP68/search.jsp</link><description>Automated RSS feed for Texas County and surrounding Missouri counties.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Thu, 17 Sep 2026 20:39:14 +0000</lastBuildDate><item><title>Crash Report #260352242 - HOWELL County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260352242</link><description>County: HOWELL
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Texas County &amp; South-Central MO Crash Reports</title><link>https://www.mshp.dps.mo.gov/HP68/search.jsp</link><description>Automated RSS feed for Texas County and surrounding Missouri counties.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Fri, 18 Sep 2026 01:50:55 +0000</lastBuildDate><item><title>Crash Report #260352242 - HOWELL County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260352242</link><description>County: HOWELL
 
 Date/Time: 08/20/2026 8:15AM
 
@@ -271,7 +271,11 @@ Location: HIGHWAY Y FIVE MILES EAST OF HARTVILLE</description><guid isPermaLink=
 
 Date/Time: 09/15/2026 8:50PM
 
-Location: MO 106 WEST OF EMINENCE TWO MILES</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260394655</guid><pubDate>Tue, 15 Sep 2026 20:50:00 -0500</pubDate></item><item><title>Crash Report #260397085 - WRIGHT County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260397085</link><description>County: WRIGHT
+Location: MO 106 WEST OF EMINENCE TWO MILES</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260394655</guid><pubDate>Tue, 15 Sep 2026 20:50:00 -0500</pubDate></item><item><title>Crash Report #260396073 - LACLEDE County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260396073</link><description>County: LACLEDE
+
+Date/Time: 09/16/2026 7:59PM
+
+Location: HIGHWAY 5 JUST NORTH OF GREENFIELD ROAD</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260396073</guid><pubDate>Wed, 16 Sep 2026 19:59:00 -0500</pubDate></item><item><title>Crash Report #260397085 - WRIGHT County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260397085</link><description>County: WRIGHT
 
 Date/Time: 09/17/2026 1:58PM
 
