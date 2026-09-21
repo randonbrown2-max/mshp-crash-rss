@@ -1,13 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Texas County &amp; South-Central MO Crash Reports</title><link>https://www.mshp.dps.mo.gov/HP68/search.jsp</link><description>Automated RSS feed for Texas County and surrounding Missouri counties.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Sun, 20 Sep 2026 19:53:54 +0000</lastBuildDate><item><title>Crash Report #260356551 - TEXAS County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260356551</link><description>County: TEXAS
-
-Date/Time: 08/22/2026 7:20PM
-
-Location: HWY B 4  MILES EAST OF RAYMONDVILLE</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260356551</guid><pubDate>Sat, 22 Aug 2026 19:20:00 -0500</pubDate></item><item><title>Crash Report #260356613 - PHELPS County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260356613</link><description>County: PHELPS
-
-Date/Time: 08/22/2026 8:05PM
-
-Location: 600 BLOCK OF W JAMES BLVD ST JAMES</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260356613</guid><pubDate>Sat, 22 Aug 2026 20:05:00 -0500</pubDate></item><item><title>Crash Report #260356756 - PHELPS County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260356756</link><description>County: PHELPS
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Texas County &amp; South-Central MO Crash Reports</title><link>https://www.mshp.dps.mo.gov/HP68/search.jsp</link><description>Automated RSS feed for Texas County and surrounding Missouri counties.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Mon, 21 Sep 2026 01:59:48 +0000</lastBuildDate><item><title>Crash Report #260356756 - PHELPS County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260356756</link><description>County: PHELPS
 
 Date/Time: 08/22/2026 9:30PM
 
@@ -275,4 +267,12 @@ Location: HWY 32, ONE MILE WEST OF ROBY</description><guid isPermaLink="false">h
 
 Date/Time: 09/19/2026 8:25PM
 
-Location: HWY 17 NINE MILES SOUTH OF MOUNTAIN VIEW</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260401056</guid><pubDate>Sat, 19 Sep 2026 20:25:00 -0500</pubDate></item></channel></rss>
+Location: HWY 17 NINE MILES SOUTH OF MOUNTAIN VIEW</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260401056</guid><pubDate>Sat, 19 Sep 2026 20:25:00 -0500</pubDate></item><item><title>Crash Report #260401973 - HOWELL County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260401973</link><description>County: HOWELL
+
+Date/Time: 09/20/2026 2:10PM
+
+Location: W HWY  ONE MILE EAST OF PEACE VALLEY</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260401973</guid><pubDate>Sun, 20 Sep 2026 14:10:00 -0500</pubDate></item><item><title>Crash Report #260402081 - TEXAS County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260402081</link><description>County: TEXAS
+
+Date/Time: 09/20/2026 3:15PM
+
+Location: AA HWY  4 MILES SOUTHEAST OF SUCCESS</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260402081</guid><pubDate>Sun, 20 Sep 2026 15:15:00 -0500</pubDate></item></channel></rss>
