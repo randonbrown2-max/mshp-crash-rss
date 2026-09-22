@@ -1,13 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Texas County &amp; South-Central MO Crash Reports</title><link>https://www.mshp.dps.mo.gov/HP68/search.jsp</link><description>Automated RSS feed for Texas County and surrounding Missouri counties.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Tue, 22 Sep 2026 15:50:47 +0000</lastBuildDate><item><title>Crash Report #260358797 - HOWELL County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260358797</link><description>County: HOWELL
-
-Date/Time: 08/24/2026 11:42AM
-
-Location: 6 MILES WEST OF MOUNTAIN VIEW ON COUNTY ROAD 2980</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260358797</guid><pubDate>Mon, 24 Aug 2026 11:42:00 -0500</pubDate></item><item><title>Crash Report #260358976 - HOWELL County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260358976</link><description>County: HOWELL
-
-Date/Time: 08/24/2026 2:00PM
-
-Location: 2 MILES SOUTH OF WEST PLAINS ON US-63</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260358976</guid><pubDate>Mon, 24 Aug 2026 14:00:00 -0500</pubDate></item><item><title>Crash Report #260359727 - PHELPS County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260359727</link><description>County: PHELPS
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Texas County &amp; South-Central MO Crash Reports</title><link>https://www.mshp.dps.mo.gov/HP68/search.jsp</link><description>Automated RSS feed for Texas County and surrounding Missouri counties.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Tue, 22 Sep 2026 20:34:37 +0000</lastBuildDate><item><title>Crash Report #260359727 - PHELPS County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260359727</link><description>County: PHELPS
 
 Date/Time: 08/25/2026 7:25AM
 
@@ -259,4 +251,8 @@ Location: W HWY  ONE MILE EAST OF PEACE VALLEY</description><guid isPermaLink="f
 
 Date/Time: 09/20/2026 3:15PM
 
-Location: AA HWY  4 MILES SOUTHEAST OF SUCCESS</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260402081</guid><pubDate>Sun, 20 Sep 2026 15:15:00 -0500</pubDate></item></channel></rss>
+Location: AA HWY  4 MILES SOUTHEAST OF SUCCESS</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260402081</guid><pubDate>Sun, 20 Sep 2026 15:15:00 -0500</pubDate></item><item><title>Crash Report #260404044 - TEXAS County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260404044</link><description>County: TEXAS
+
+Date/Time: 09/22/2026 10:10AM
+
+Location: US-63 SIX MILES NORTH OF CABOOL</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260404044</guid><pubDate>Tue, 22 Sep 2026 10:10:00 -0500</pubDate></item></channel></rss>
