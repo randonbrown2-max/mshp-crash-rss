@@ -1,13 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Texas County &amp; South-Central MO Crash Reports</title><link>https://www.mshp.dps.mo.gov/HP68/search.jsp</link><description>Automated RSS feed for Texas County and surrounding Missouri counties.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Mon, 28 Sep 2026 02:14:19 +0000</lastBuildDate><item><title>Crash Report #260367681 - PULASKI County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260367681</link><description>County: PULASKI
-
-Date/Time: 08/30/2026 12:08AM
-
-Location: TEXAS ROAD WEST OF TANNER DR</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260367681</guid><pubDate>Sun, 30 Aug 2026 00:08:00 -0500</pubDate></item><item><title>Crash Report #260367774 - SHANNON County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260367774</link><description>County: SHANNON
-
-Date/Time: 08/30/2026 1:20AM
-
-Location: MO 106  2 MILES EAST OF EMINENCE</description><guid isPermaLink="false">https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260367774</guid><pubDate>Sun, 30 Aug 2026 01:20:00 -0500</pubDate></item><item><title>Crash Report #260368973 - LACLEDE County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260368973</link><description>County: LACLEDE
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Texas County &amp; South-Central MO Crash Reports</title><link>https://www.mshp.dps.mo.gov/HP68/search.jsp</link><description>Automated RSS feed for Texas County and surrounding Missouri counties.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Mon, 28 Sep 2026 12:10:31 +0000</lastBuildDate><item><title>Crash Report #260368973 - LACLEDE County</title><link>https://www.mshp.dps.mo.gov/HP68/AccidentDetailsAction?ACC_RPT_NUM=260368973</link><description>County: LACLEDE
 
 Date/Time: 08/30/2026 9:50PM
 
